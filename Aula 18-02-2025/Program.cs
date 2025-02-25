@@ -5,9 +5,9 @@ Console.WriteLine("Digite o tamanho do vetor");
 numeros = int.Parse(Console.ReadLine());
 vetor = new int[numeros];
 
+Console.WriteLine($"Digite {numeros} numeros");
 for (i = 0; i < numeros; i++)
-{
-    Console.WriteLine($"Digite {numeros} numeros");
+{   
     vetor[i] = int.Parse(Console.ReadLine());   
 }
 maior_numero = vetor[0];
