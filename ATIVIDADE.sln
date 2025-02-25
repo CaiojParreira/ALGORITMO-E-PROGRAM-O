@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio 1", "Aula 18-02-2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio2", "exercicio2\exercicio2.csproj", "{8A5B3B2C-095F-4CA9-B348-A79F8C5878D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATIVIDADE_NELIO", "ATIVIDADE_NELIO", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio3", "exercicio3\exercicio3.csproj", "{1A118D67-9CFF-4020-A875-47452A442B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,18 @@ Global
 		{8A5B3B2C-095F-4CA9-B348-A79F8C5878D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5B3B2C-095F-4CA9-B348-A79F8C5878D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5B3B2C-095F-4CA9-B348-A79F8C5878D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A118D67-9CFF-4020-A875-47452A442B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A118D67-9CFF-4020-A875-47452A442B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A118D67-9CFF-4020-A875-47452A442B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A118D67-9CFF-4020-A875-47452A442B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7D54281-3E38-4125-9387-9B331BAF4132} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8A5B3B2C-095F-4CA9-B348-A79F8C5878D6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1A118D67-9CFF-4020-A875-47452A442B36} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8D17DA7-4FCF-49D8-971B-716B5B6FD3D9}
