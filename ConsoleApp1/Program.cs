@@ -1,5 +1,5 @@
 ﻿int[] vetor;
-int i,numeros,soma=0;
+int i, numeros, soma = 0, soma_par=0;
 double media;
 
 Console.WriteLine("Digite o tamanho do vetor");
@@ -12,9 +12,9 @@ for (i = 0; i < numeros; i++)
     vetor[i] = int.Parse(Console.ReadLine());
 }
 
-for(i = 0;i < numeros; i++)
+for (i = 0; i < numeros; i++)
 {
-    soma += vetor[i];
+ 
 }
 
 numeros = vetor.Length;
@@ -22,4 +22,3 @@ numeros = vetor.Length;
 media = soma / numeros;
 
 Console.WriteLine($"A média desses numeros é: {media}");
-
