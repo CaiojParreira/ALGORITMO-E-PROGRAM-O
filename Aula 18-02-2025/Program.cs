@@ -20,6 +20,5 @@ for (i = 1; i < numeros; i++)
         posicao = i;
 }
 
-
 Console.WriteLine($"O maior numero é {maior_numero} na posição {posicao}");
 
